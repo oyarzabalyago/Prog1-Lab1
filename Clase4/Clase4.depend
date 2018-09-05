@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1536019266 source:c:\users\alumno\desktop\clase4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h"
+
+1536015720 source:c:\users\alumno\desktop\clase4\milibreria.c
+
+1536019233 source:c:\users\alumno\desktop\clase4\olivieri.c
+
+1536019233 c:\users\alumno\desktop\clase4\olivieri.h
+

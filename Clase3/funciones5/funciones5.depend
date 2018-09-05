@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1535758851 source:c:\users\alumno\desktop\funciones5\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1535759071 source:c:\users\alumno\desktop\funciones5\milibreria.c
+
+1536019729 source:c:\users\alumno\desktop\clases-lab1-prog1-master\clase3\funciones5\main.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h"
+
+1536017751 c:\users\alumno\desktop\clases-lab1-prog1-master\clase3\funciones5\milibreria.h
+
+1536019721 c:\users\alumno\desktop\clases-lab1-prog1-master\clase3\funciones5\olivieri.h
+
+1536019893 source:c:\users\alumno\desktop\clases-lab1-prog1-master\clase3\funciones5\olivieri.c
+	<stdio.h>
+	<stdlib.h>
+
