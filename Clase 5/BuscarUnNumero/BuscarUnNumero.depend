@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536366679 source:c:\users\alumno\desktop\clase 5\buscarunnumero\main.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h.h"
+
+1536366570 c:\users\alumno\desktop\clase 5\buscarunnumero\olivieri.h.h
+
+1536366766 source:c:\users\alumno\desktop\clase 5\buscarunnumero\olivieri.c.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h.h"
+
