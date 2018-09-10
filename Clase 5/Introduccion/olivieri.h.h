@@ -13,3 +13,5 @@ int factorial (int a);
 void mostrarVector (int vec[], int tam);
 
 int buscarNumero (int vec [], int tam, int valor);
+
+int ordenamientoVector (int vec[], int tam);
