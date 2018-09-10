@@ -135,3 +135,27 @@ int buscarNumero (int vec[], int tam, int valor)
     }
     return indice;
 }
+
+
+/** \brief ORDENA UN VECTOR DE MENOR A MAYOR
+ * \param EL VECTOR A ORDENAR
+ * \param EL TAMAÑO DEL VECTOR
+ * \return EL VECTOR ORDENADO
+ */
+int ordenamientoVector (int vec[], int tam)
+{
+    int aux;
+    for (int i = 0; i < tam; i++)
+    {
+        for (int j = i + 1; j < tam; j++)
+        {
+            if (vec[i] > vec[j])
+            {
+                aux = vec[i];
+                vec[i] = vec[j];
+                vec[j] = aux;
+            }
+        }
+    }
+    return vec[tam];
+}
