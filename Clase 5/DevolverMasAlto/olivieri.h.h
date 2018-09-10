@@ -10,6 +10,6 @@ int dividir (int a, int b);
 
 int factorial (int a);
 
-int buscarNumero (int vec [], int tam, int valor);
+void mostrarVector (int vec[], int tam);
 
-int busquedaMasAlto (int vec [], int tam)
+int buscarNumero (int vec [], int tam, int valor);

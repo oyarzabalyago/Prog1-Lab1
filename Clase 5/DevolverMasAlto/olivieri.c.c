@@ -101,6 +101,20 @@ int factorial (int a)
 }
 
 
+/** \brief MUESTRA UN VECTOR
+ * \param EL VECTOR
+ * \param EL TAMAÑO
+ * \return VISUALIZA EL VECTOR
+ */
+void mostrarVector (int vec[], int tam)
+{
+    for (int i = 0;i < tam;i++)
+    {
+        printf("%d  ", vec[i]);
+    }
+}
+
+
 /** \brief BUSCA UN NUMERO DENTRO DE UN ARRAY
  * \param VECTOR EN EL QUE SE BUSCA
  * \param TAMAÑO DEL VECTOR
@@ -120,23 +134,4 @@ int buscarNumero (int vec[], int tam, int valor)
         }
     }
     return indice;
-}
-
-
-/** \brief BUSCA EL NUMERO MAS ALTO
- * \param VECTOR
- * \param TAMAÑO
- * \return DEVUELVE EL MAS ALTO
- */
-int busquedaMasAlto(int vec [], int tam)
-{
-    int maximo = vec [0];
-    for (i = 1;i < tam; i++)
-    {
-        if (vec[i] > maximo)
-        {
-            maximo = vec[i];
-        }
-    }
-    return maximo;
 }
