@@ -9,3 +9,7 @@ int multiplicar (int a, int b);
 int dividir (int a, int b);
 
 int factorial (int a);
+
+void mostrarVector (int vec[], int tam);
+
+int buscarNumero (int vec [], int tam, int valor);

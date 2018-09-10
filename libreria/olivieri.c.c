@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "olivieri.h.h"
 /** \brief VALIDA UN NUMERO
  * \param PRIMER MENSAJE
  * \param SEGUNDO MENSAJE DE ERROR
@@ -95,4 +98,40 @@ int factorial (int a)
     {
         return a * (factorial(a - 1));
     }
+}
+
+
+/** \brief MUESTRA UN VECTOR
+ * \param EL VECTOR
+ * \param EL TAMAÑO
+ * \return VISUALIZA EL VECTOR
+ */
+void mostrarVector (int vec[], int tam)
+{
+    for (int i = 0;i < tam;i++)
+    {
+        printf("%d  ", vec[i]);
+    }
+}
+
+
+/** \brief BUSCA UN NUMERO DENTRO DE UN ARRAY
+ * \param VECTOR EN EL QUE SE BUSCA
+ * \param TAMAÑO DEL VECTOR
+ * \param NUMERO A BUSCAR
+ * \return DEVUELVE EL NUMERO SI LO ENCUENTRA O FALSE SI NO
+ */
+int buscarNumero (int vec[], int tam, int valor)
+{
+    int indice = -1;
+
+    for (int i = 0; i < tam; i++)
+    {
+        if (vec [i] == valor)
+        {
+            indice = valor;
+            break;
+        }
+    }
+    return indice;
 }
