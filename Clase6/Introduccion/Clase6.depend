@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1536620199 source:c:\users\alumno\desktop\prog1-lab1-master\clase6\main.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h.h"
+
+1536620084 c:\users\alumno\desktop\prog1-lab1-master\clase6\olivieri.h.h
+
+1536623718 source:c:\users\alumno\desktop\prog1-lab1-master\clase6\olivieri.c.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h.h"
+
