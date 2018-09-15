@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1536965786 source:c:\users\alumno\desktop\ingresodelegajos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1536961866 source:c:\users\alumno\desktop\clase7\ingresodelegajos\olivieri.c.c
+	<stdio.h>
+	<stdlib.h>
+	"olivieri.h.h"
+
+1536961866 c:\users\alumno\desktop\clase7\ingresodelegajos\olivieri.h.h
+
+1536969899 source:c:\users\alumno\desktop\clase7\ingresodelegajos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"olivieri.h.h"
+
